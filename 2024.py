@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 # Carpeta donde están los CSV mensuales
-ruta = "C:/Users/hunte/Downloads/Licit/*.csv"
+ruta = "C:/Users/hunte/Documents/Appv2/ML-SmartBids/annio/*.csv"
 
 archivos = sorted(glob.glob(ruta))
 
@@ -16,6 +16,41 @@ if len(archivos) == 0:
     )
 
 dataframes = []
+
+
+
+for archivo in archivos:
+    nombre = os.path.basename(archivo)
+
+    # Ajusta esto si los nombres no contienen "11" / "12"
+    if "11" in nombre or "12" in nombre:
+
+        print("\n" + "=" * 100)
+        print(nombre)
+        print("=" * 100)
+
+        temp = pd.read_csv(
+            archivo,
+            sep=";",
+            encoding="cp1252",
+            encoding_errors="replace",
+            low_memory=False
+        )
+
+        print("Filas:", f"{len(temp):,}")
+
+        for col in ["Cantidad Ofertada", "Valor Total Ofertado"]:
+
+            if col in temp.columns:
+                print(
+                    f"{col}: "
+                    f"{temp[col].isna().sum():,} NaN "
+                    f"({temp[col].isna().mean()*100:.2f}%)"
+                )
+            else:
+                print(f"{col}: NO EXISTE con ese nombre")
+
+
 
 for archivo in archivos:
 

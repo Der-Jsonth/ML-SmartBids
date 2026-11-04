@@ -1,0 +1,12 @@
+.venv/
+.python/
+.uv-cache/
+__pycache__/
+resultados_propuestas/
+resultados_notebook/
+resultados_comparacion/
+resultados_dataset_limpio/
+.jupyter/
+.ipython/
+.matplotlib/
+*.pyc

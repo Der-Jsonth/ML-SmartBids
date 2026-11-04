@@ -1,0 +1,122 @@
+[
+  {
+    "archivo":"lic_2024-01.csv",
+    "bytes":352780342,
+    "filas":203486,
+    "licitaciones_codigo":11665,
+    "etiquetas":{
+      "Seleccionada":43056,
+      "No Seleccionada":160430
+    }
+  },
+  {
+    "archivo":"lic_2024-02.csv",
+    "bytes":367863477,
+    "filas":216727,
+    "licitaciones_codigo":12378,
+    "etiquetas":{
+      "Seleccionada":45936,
+      "No Seleccionada":170791
+    }
+  },
+  {
+    "archivo":"lic_2024-03.csv",
+    "bytes":373377371,
+    "filas":220947,
+    "licitaciones_codigo":12025,
+    "etiquetas":{
+      "No Seleccionada":181301,
+      "Seleccionada":39646
+    }
+  },
+  {
+    "archivo":"lic_2024-04.csv",
+    "bytes":431577987,
+    "filas":254411,
+    "licitaciones_codigo":14567,
+    "etiquetas":{
+      "No Seleccionada":206401,
+      "Seleccionada":48010
+    }
+  },
+  {
+    "archivo":"lic_2024-05.csv",
+    "bytes":340225130,
+    "filas":200639,
+    "licitaciones_codigo":13128,
+    "etiquetas":{
+      "No Seleccionada":169514,
+      "Seleccionada":31125
+    }
+  },
+  {
+    "archivo":"lic_2024-06.csv",
+    "bytes":291040753,
+    "filas":175285,
+    "licitaciones_codigo":10066,
+    "etiquetas":{
+      "No Seleccionada":163256,
+      "Seleccionada":12029
+    }
+  },
+  {
+    "archivo":"lic_2024-07.csv",
+    "bytes":343127752,
+    "filas":202290,
+    "licitaciones_codigo":13244,
+    "etiquetas":{
+      "No Seleccionada":169625,
+      "Seleccionada":32665
+    }
+  },
+  {
+    "archivo":"lic_2024-08.csv",
+    "bytes":288506191,
+    "filas":172165,
+    "licitaciones_codigo":11847,
+    "etiquetas":{
+      "No Seleccionada":155923,
+      "Seleccionada":16242
+    }
+  },
+  {
+    "archivo":"lic_2024-09.csv",
+    "bytes":253890337,
+    "filas":149184,
+    "licitaciones_codigo":10076,
+    "etiquetas":{
+      "No Seleccionada":131405,
+      "Seleccionada":17779
+    }
+  },
+  {
+    "archivo":"lic_2024-10.csv",
+    "bytes":267244274,
+    "filas":161029,
+    "licitaciones_codigo":13082,
+    "etiquetas":{
+      "No Seleccionada":152040,
+      "Seleccionada":8989
+    }
+  },
+  {
+    "archivo":"lic_2024-11.csv",
+    "bytes":863083512,
+    "filas":530356,
+    "licitaciones_codigo":15068,
+    "etiquetas":{
+      "Seleccionada":42452,
+      "No Seleccionada":487904
+    }
+  },
+  {
+    "archivo":"lic_2024-12.csv",
+    "bytes":573143214,
+    "filas":359662,
+    "licitaciones_codigo":8230,
+    "etiquetas":{
+      "Seleccionada":20795,
+      "No Seleccionada":338867
+    }
+  }
+]

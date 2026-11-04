@@ -1,0 +1,76 @@
+{
+  "muestra_filas": 43740,
+  "train": 27720,
+  "test": 16020,
+  "fechas_muestra": {
+    "FechaPublicacion": {
+      "validos": 43740,
+      "min": "2024-01-02 00:00:00",
+      "max": "2024-12-31 00:00:00"
+    },
+    "FechaCierre": {
+      "validos": 43740,
+      "min": "2024-01-08 00:00:00",
+      "max": "2025-04-23 00:00:00"
+    },
+    "FechaEnvioOferta": {
+      "validos": 42647,
+      "min": "2024-01-02 00:00:00",
+      "max": "2025-04-23 00:00:00"
+    },
+    "FechaAdjudicacion": {
+      "validos": 43698,
+      "min": "2024-01-10 00:00:00",
+      "max": "2027-07-22 00:00:00"
+    }
+  },
+  "derivadas_muestra": {
+    "Plazo_publicacion_cierre": {
+      "validos": 43740,
+      "negativos": 0,
+      "mediana": 10.0,
+      "p99": 38.0
+    },
+    "Anticipacion_envio": {
+      "validos": 42647,
+      "negativos": 0,
+      "mediana": 1.0,
+      "p99": 18.0
+    },
+    "Cobertura_cantidad": {
+      "validos": 34788,
+      "negativos": 0,
+      "mediana": 1.0,
+      "p99": 1.0
+    }
+  },
+  "pares_monedas_muestra": {
+    "Peso Chileno | Peso Chileno": 33170,
+    "Peso Chileno | Moneda revisar": 10346,
+    "Dolar | Dolar": 104,
+    "Unidad de Fomento | Unidad de Fomento": 86,
+    "Dolar | Moneda revisar": 14,
+    "Unidad de Fomento | Moneda revisar": 12,
+    "Moneda revisar | Moneda revisar": 6,
+    "Euro | Euro": 2
+  },
+  "licitaciones_en_mas_de_un_archivo": 1,
+  "licitaciones_unicas": 145375,
+  "filas_por_licitacion": {
+    "count": 145375.0,
+    "mean": 19.57820120378332,
+    "std": 175.77634750102496,
+    "min": 1.0,
+    "25%": 2.0,
+    "50%": 3.0,
+    "75%": 8.0,
+    "max": 20987.0
+  },
+  "codigos_con_fechas_publicacion_multiples": 1,
+  "licitaciones_sin_oferta_seleccionada": 52375,
+  "licitaciones_con_multiples_filas_seleccionadas": 25967,
+  "monto_estimado_cero_muestra": 0,
+  "precio_no_positivo_muestra": 2300,
+  "fecha_publicacion_fuera_2024_muestra": 0,
+  "advertencia": "Estadísticas con sufijo muestra y modelos usan muestreo por bloques sin ponderar; perfiles y claves abarcan todos los CSV. Comparación exploratoria sin ajuste de hiperparámetros ni validación anidada."
+}

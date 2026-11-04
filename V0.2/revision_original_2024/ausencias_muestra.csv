@@ -1,0 +1,124 @@
+﻿columna,porcentaje_ausencia_muestra
+Codigo,0.0
+Link,0.0
+CodigoExterno,0.0
+Nombre,0.0
+Descripcion,0.0
+Tipo de Adquisicion,0.0
+CodigoEstado,0.0
+Estado,0.0
+CodigoOrganismo,0.0
+NombreOrganismo,0.0
+sector,0.8436213991769548
+RutUnidad,0.0
+CodigoUnidad,0.0
+NombreUnidad,0.0
+DireccionUnidad,7.8966620941929575
+ComunaUnidad,8.319615912208505
+RegionUnidad,0.0
+Informada,0.0
+CodigoTipo,0.0
+Tipo,0.0
+TipoConvocatoria,0.0
+CodigoMoneda,0.0
+Moneda Adquisicion,0.0
+Etapas,0.0
+EstadoEtapas,0.0
+TomaRazon,0.0
+EstadoPublicidadOfertas,0.0
+JustificacionPublicidad,83.1390032007316
+EstadoCS,0.0
+Contrato,6.774119798811157
+Obras,0.0
+CantidadReclamos,0.0
+FechaCreacion,0.0
+FechaCierre,0.0
+FechaInicio,0.0
+FechaFinal,0.0
+FechaPubRespuestas,0.0
+FechaActoAperturaTecnica,0.0
+FechaActoAperturaEconomica,0.0
+FechaPublicacion,0.0
+FechaAdjudicacion,0.09602194787379972
+FechaEstimadaAdjudicacion,0.0
+FechaSoporteFisico,0.0
+FechaTiempoEvaluacion,0.0
+UnidadTiempoEvaluacion,1.5112025605852766
+FechaEstimadaFirma,0.0
+FechasUsuario,0.0
+FechaVisitaTerreno,0.0
+DireccionVisita,0.0
+FechaEntregaAntecedentes,0.0
+DireccionEntrega,0.0
+Estimacion,0.33150434385002286
+FuenteFinanciamiento,47.498856881572934
+VisibilidadMonto,0.0
+MontoEstimado,0.1257430269775949
+Tiempo,65.89163237311385
+UnidadTiempo,0.0
+Modalidad,0.0
+TipoPago,0.0
+ProhibicionContratacion,81.4586191129401
+SubContratacion,0.0
+UnidadTiempoDuracionContrato,0.0
+TiempoDuracionContrato,0.0
+TipoDuracionContrato,99.77137631458619
+JustificacionMontoEstimado,61.52263374485597
+ObservacionContrato,78.54823959762231
+ExtensionPlazo,0.0
+EsBaseTipo,0.0
+UnidadTiempoContratoLicitacion,0.0
+ValorTiempoRenovacion,0.0
+PeriodoTiempoRenovacion,100.0
+EsRenovable,0.0
+TipoAprobacion,28.056698673982623
+NumeroAprobacion,28.08870598994056
+FechaAprobacion,28.056698673982623
+NumeroOferentes,0.0
+Correlativo,0.0
+CodigoEstadoLicitacion,0.0
+Codigoitem,0.0
+CodigoProductoONU,0.0
+Rubro1,0.0
+Rubro2,0.0
+Rubro3,0.0
+Nombre producto genrico,0.0
+Nombre linea Adquisicion,0.0
+Descripcion linea Adquisicion,0.386374028349337
+UnidadMedida,0.0
+Cantidad,0.0
+CodigoProveedor,0.7681755829903978
+CodigoSucursalProveedor,0.7681755829903978
+RutProveedor,0.7681755829903978
+NombreProveedor,0.7681755829903978
+RazonSocialProveedor,0.7681755829903978
+DescripcionProveedor,24.403292181069958
+Monto Estimado Adjudicado,18.27617741197988
+Nombre de la Oferta,0.7681755829903978
+Estado Oferta,0.0
+Cantidad Ofertada,20.46639231824417
+Moneda de la Oferta,0.0
+MontoUnitarioOferta,20.46639231824417
+Valor Total Ofertado,20.46639231824417
+CantidadAdjudicada,20.468678555098307
+MontoLineaAdjudica,20.468678555098307
+FechaEnvioOferta,2.498856881572931
+Oferta seleccionada,0.0
+_archivo,0.0
+_chunk,0.0
+_peso,0.0
+MontoEstimado_num,0.1257430269775949
+MontoEstimado_log,0.1257430269775949
+Valor Total Ofertado_num,20.46639231824417
+Valor Total Ofertado_log,20.46639231824417
+Cantidad_num,0.0
+Cantidad_log,0.0
+Cantidad Ofertada_num,20.46639231824417
+Cantidad Ofertada_log,20.46639231824417
+MontoUnitarioOferta_num,20.46639231824417
+MontoUnitarioOferta_log,20.46639231824417
+Mes,0.0
+DiaSemana,0.0
+Plazo_publicacion_cierre,0.0
+Anticipacion_envio,2.498856881572931
+Cobertura_cantidad,20.46639231824417

@@ -1,0 +1,7 @@
+# Versiones del entorno local usado para la ejecución documentada.
+numpy==2.5.4
+pandas==2.3.3
+scikit-learn==1.9.1
+pyarrow==26.0.1
+joblib==1.6.0
+matplotlib==3.11.2

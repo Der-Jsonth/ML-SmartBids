@@ -1,0 +1,12 @@
+{
+  "filas": 2846181,
+  "columnas": 105,
+  "etiquetas": {
+    "Seleccionada": 358724,
+    "No Seleccionada": 2487457
+  },
+  "archivos": 12,
+  "muestra": 43740,
+  "metodo_muestra": "180 filas aleatorias por bloque de 12000; semilla 42+indice_bloque; pesos guardados",
+  "lectura": "cp1252 con reemplazo de bytes indefinidos (contabilizado por columna), separador ;, cadenas, sin convertir NA"
+}

@@ -1,0 +1,116 @@
+Página 1
+Dataset Original
+Columna Tipo Dato Descripción
+Codigo INT Identificador interno del registro/proceso.
+Link VARCHAR URL de la licitación.
+CodigoExterno VARCHAR Código público de la licitación.
+Nombre TEXT Nombre de la licitación.
+Descripcion TEXT Descripción general de la licitación.
+Tipo de Adquisicion VARCHAR Tipo de procedimiento de adquisición.
+CodigoEstado INT Código del estado del proceso.
+Estado VARCHAR Estado actual de la licitación.
+CodigoOrganismo INT Identificador del organismo comprador.
+NombreOrganismo VARCHAR Nombre del organismo comprador.
+sector VARCHAR Sector del organismo público.
+RutUnidad VARCHAR RUT de la unidad compradora.
+CodigoUnidad INT Identificador de la unidad compradora.
+NombreUnidad VARCHAR Nombre de la unidad compradora.
+DireccionUnidad VARCHAR Dirección de la unidad compradora.
+ComunaUnidad VARCHAR Comuna de la unidad compradora.
+RegionUnidad VARCHAR Región de la unidad compradora.
+Informada INT/BOOLEAN Indicador de información del proceso.
+CodigoTipo INT Código del tipo de licitación.
+Tipo VARCHAR Código/tipo de licitación (LR, LE, LP, etc.).
+
+Página 2
+TipoConvocatoria INT/VARCHAR Tipo de convocatoria.
+CodigoMoneda INT Código de moneda.
+Moneda Adquisicion VARCHAR Moneda de la adquisición.
+Etapas INT Número/tipo de etapas del proceso.
+EstadoEtapas INT/VARCHAR Estado/configuración de las etapas.
+TomaRazon INT/BOOLEAN Indica si requiere toma de razón.
+EstadoPublicidadOfertas INT/VARCHAR Condición de publicidad de ofertas.
+JustificacionPublicidad TEXT Justificación de publicidad de ofertas.
+EstadoCS INT/VARCHAR Estado administrativo asociado al proceso.
+Contrato INT/BOOLEAN Indica si contempla contrato.
+Obras INT/BOOLEAN Indica si corresponde a obras.
+CantidadReclamos INT Número de reclamos del proceso.
+FechaCreacion DATE Fecha de creación del proceso.
+FechaCierre DATE Fecha límite de ofertas.
+FechaInicio DATE Fecha prevista de inicio.
+FechaFinal DATE Fecha prevista de término.
+FechaPubRespuestas DATE Fecha de publicación de respuestas.
+FechaActoAperturaTecnica DATE Fecha de apertura técnica.
+FechaActoAperturaEconomica DATE Fecha de apertura económica.
+FechaPublicacion DATE Fecha de publicación de la licitación.
+FechaAdjudicacion DATE Fecha efectiva de adjudicación.
+FechaEstimadaAdjudicacion DATE Fecha prevista de adjudicación.
+FechaSoporteFisico DATE Fecha asociada a soporte físico.
+FechaTiempoEvaluacion INT/DATE Información temporal de evaluación.
+UnidadTiempoEvaluacion VARCHAR Unidad del plazo de evaluación.
+
+Página 3
+FechaEstimadaFirma DATE Fecha estimada de firma.
+FechasUsuario INT/TEXT Información de fechas configuradas por usuario.
+FechaVisitaTerreno DATE Fecha de visita a terreno.
+DireccionVisita VARCHAR Dirección de visita.
+FechaEntregaAntecedentes DATE Fecha de entrega de antecedentes.
+DireccionEntrega VARCHAR Dirección de entrega.
+Estimacion INT/VARCHAR Tipo de estimación económica.
+FuenteFinanciamiento VARCHAR Fuente de financiamiento.
+VisibilidadMonto INT/BOOLEAN Indica visibilidad del monto.
+MontoEstimado DECIMAL Monto estimado de la licitación.
+Tiempo DECIMAL Tiempo asociado al contrato/proceso.
+UnidadTiempo VARCHAR Unidad asociada a Tiempo.
+Modalidad VARCHAR/INT Modalidad de contratación.
+TipoPago VARCHAR Condición/modalidad de pago.
+ProhibicionContratacion INT/BOOLEAN Restricciones de contratación.
+SubContratacion INT/BOOLEAN Indica posibilidad de subcontratación.
+UnidadTiempoDuracionContrato VARCHAR/INT Unidad de duración contractual.
+TiempoDuracionContrato DECIMAL Duración del contrato.
+TipoDuracionContrato VARCHAR Tipo de duración contractual.
+JustificacionMontoEstimado TEXT Justificación del monto estimado.
+ObservacionContrato TEXT Observaciones contractuales.
+ExtensionPlazo INT/BOOLEAN Indica extensión de plazo.
+
+Página 4
+EsBaseTipo INT/BOOLEAN Indicador de base tipo.
+UnidadTiempoContratoLicitacion VARCHAR/INT Unidad temporal del contrato.
+ValorTiempoRenovacion DECIMAL Tiempo de renovación.
+PeriodoTiempoRenovacion VARCHAR Período de renovación.
+EsRenovable INT/BOOLEAN Indica si es renovable.
+TipoAprobacion VARCHAR Tipo de aprobación.
+NumeroAprobacion VARCHAR Número de aprobación.
+FechaAprobacion DATE Fecha de aprobación.
+NumeroOferentes INT Número de proveedores participantes.
+Correlativo INT Correlativo del ítem/registro.
+CodigoEstadoLicitacion INT Código del estado de la licitación.
+Codigoitem INT/VARCHAR Identificador de la línea/ítem.
+CodigoProductoONU VARCHAR/INT Código ONU/UNSPSC del producto.
+Rubro1 VARCHAR Nivel superior de clasificación.
+Rubro2 VARCHAR Segundo nivel de clasificación.
+Rubro3 VARCHAR Tercer nivel de clasificación.
+Nombre producto genrico VARCHAR Nombre genérico del producto.
+Nombre linea Adquisicion TEXT Nombre de la línea de compra.
+Descripcion linea Adquisicion TEXT Descripción del ítem solicitado.
+UnidadMedida VARCHAR Unidad de medida solicitada.
+Cantidad DECIMAL Cantidad requerida.
+CodigoProveedor INT/VARCHAR Identificador del proveedor.
+CodigoSucursalProveedor INT/VARCHAR Identificador de sucursal.
+RutProveedor VARCHAR RUT del proveedor.
+NombreProveedor VARCHAR Nombre del proveedor.
+
+Página 5
+RazonSocialProveedor VARCHAR Razón social del proveedor.
+DescripcionProveedor TEXT Descripción de la oferta/producto del proveedor.
+Monto Estimado Adjudicado DECIMAL Monto asociado a la adjudicación.
+Nombre de la Oferta TEXT Nombre de la oferta presentada.
+Estado Oferta VARCHAR Estado final de la oferta.
+Cantidad Ofertada DECIMAL Cantidad ofrecida.
+Moneda de la Oferta VARCHAR Moneda utilizada en la oferta.
+MontoUnitarioOferta DECIMAL Precio unitario ofertado.
+Valor Total Ofertado DECIMAL Monto total de la oferta.
+CantidadAdjudicada DECIMAL Cantidad finalmente adjudicada.
+MontoLineaAdjudica DECIMAL Monto finalmente adjudicado.
+FechaEnvioOferta DATE Fecha en que se presentó la oferta.
+Oferta seleccionada VARCHAR → BOOLEAN Indica si la oferta resultó seleccionada.

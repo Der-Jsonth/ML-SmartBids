@@ -1,0 +1,9 @@
+﻿clave,columnas,filas_totales,filas_con_clave_completa,filas_sin_clave_completa,claves_distintas,claves_repetidas,filas_en_claves_repetidas,max_repeticiones
+licitacion,['Codigo'],2846181,2846181,0,145375,109406,2810212,20987
+linea,"['Codigo', 'Codigoitem']",2846181,2846181,0,589669,451511,2708023,578
+linea_correlativo,"['Codigo', 'Codigoitem', 'Correlativo']",2846181,2846181,0,589669,451511,2708023,578
+linea_proveedor,"['Codigo', 'Codigoitem', 'CodigoProveedor']",2846181,2825458,20723,2782675,26243,69026,33
+linea_proveedor_sucursal,"['Codigo', 'Codigoitem', 'CodigoProveedor', 'CodigoSucursalProveedor']",2846181,2825458,20723,2789230,21428,57656,33
+oferta_ids,"['Codigo', 'Codigoitem', 'Correlativo', 'CodigoProveedor', 'CodigoSucursalProveedor']",2846181,2825458,20723,2789230,21428,57656,33
+oferta_ids_fecha,"['Codigo', 'Codigoitem', 'Correlativo', 'CodigoProveedor', 'CodigoSucursalProveedor', 'FechaEnvioOferta']",2846181,2776593,69588,2746520,18683,48756,17
+oferta_ids_fecha_monto,"['Codigo', 'Codigoitem', 'Correlativo', 'CodigoProveedor', 'CodigoSucursalProveedor', 'FechaEnvioOferta', 'MontoUnitarioOferta', 'Cantidad Ofertada']",2846181,2211311,634870,2206359,4587,9539,9

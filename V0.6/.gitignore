@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+datos/
+resultados/
+_anterior/
+version_anterior.zip

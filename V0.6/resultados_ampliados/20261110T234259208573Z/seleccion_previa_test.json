@@ -1,0 +1,11 @@
+{
+  "elegido": "cb_item",
+  "criterio": "Mayor F1 de validación; desempate AP",
+  "comparacion_base": "D:\\Licit\\1\\ML-SmartBids\\V0.6\\resultados\\20261110T231625813397Z",
+  "test_reutilizado": true,
+  "nota_test": "2024 ya fue consultado en versiones previas; resultado exploratorio, no confirmatorio.",
+  "versiones": {
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  }
+}

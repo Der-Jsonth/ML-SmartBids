@@ -1,0 +1,40 @@
+{
+  "version": "0.6.2",
+  "configuracion": {
+    "fuente": "D:/Licit",
+    "patron": "lic_2024-*.csv",
+    "anio": 2024,
+    "tamano_bloque": 25000,
+    "semilla": 42,
+    "iteraciones_hgb": 200,
+    "iteraciones_catboost": 300,
+    "profundidad_catboost": 6,
+    "hilos": 4,
+    "bootstrap_repeticiones": 500,
+    "cortes": {
+      "train": [
+        "2024-01-01",
+        "2024-09-01"
+      ],
+      "validacion": [
+        "2024-09-01",
+        "2024-11-01"
+      ],
+      "test": [
+        "2024-11-01",
+        "2025-01-01"
+      ]
+    }
+  },
+  "cohorte_sha256": "886c0f1fb9dfde6664e6b667b78b0f5a976494a95edaf0ca6b6666fa22e717f7",
+  "codigo_sha256": "52b76bc7ba92fa62047118f900f4e12ac0fd7bfa6ac172a8beb15d961ad48d30",
+  "modelos": [
+    "sgd_logistico",
+    "lightgbm_item",
+    "xgboost_item"
+  ],
+  "versiones": {
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  }
+}

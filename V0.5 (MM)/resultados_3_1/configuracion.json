@@ -1,0 +1,94 @@
+{
+  "semilla": 42,
+  "anio": 2024,
+  "iteraciones_boosting": 200,
+  "entrenar_red": true,
+  "suavizado": 20,
+  "prior_sin_historia": 0.5,
+  "hilos": 4,
+  "datos_sha256": "b8460ffd69e9807c8e50d22e15056dd5f15096acf16ef0098da955e592e224af",
+  "python": "3.12.13",
+  "pandas": "2.3.3",
+  "sklearn": "1.9.1",
+  "auditoria_datos": {
+    "filas_originales": 2248494,
+    "duplicados_completos_detectados": 360769,
+    "quitar_duplicados_heredados": true,
+    "filas_tras_deduplicar": 1887725,
+    "licitaciones_con_periodo_ambiguo_excluidas": 1,
+    "filas_con_periodo_ambiguo_excluidas": 4,
+    "filas_modeladas": 1887721,
+    "licitaciones_modeladas": 136042
+  },
+  "auditoria_precision": {
+    "productos_originales": 11033,
+    "productos_si_se_convirtieran_a_float32": 5828,
+    "codigos_que_float32_alteraria": 7732
+  },
+  "registro_historia": [
+    {
+      "mes_destino": 1,
+      "filas_pasadas": 0,
+      "filas_destino": 178662,
+      "ultimo_mes_consultado": null
+    },
+    {
+      "mes_destino": 2,
+      "filas_pasadas": 178662,
+      "filas_destino": 189468,
+      "ultimo_mes_consultado": 1
+    },
+    {
+      "mes_destino": 3,
+      "filas_pasadas": 368130,
+      "filas_destino": 193182,
+      "ultimo_mes_consultado": 2
+    },
+    {
+      "mes_destino": 4,
+      "filas_pasadas": 561312,
+      "filas_destino": 221356,
+      "ultimo_mes_consultado": 3
+    },
+    {
+      "mes_destino": 5,
+      "filas_pasadas": 782668,
+      "filas_destino": 173773,
+      "ultimo_mes_consultado": 4
+    },
+    {
+      "mes_destino": 6,
+      "filas_pasadas": 956441,
+      "filas_destino": 109151,
+      "ultimo_mes_consultado": 5
+    },
+    {
+      "mes_destino": 7,
+      "filas_pasadas": 1065592,
+      "filas_destino": 178553,
+      "ultimo_mes_consultado": 6
+    },
+    {
+      "mes_destino": 8,
+      "filas_pasadas": 1244145,
+      "filas_destino": 129408,
+      "ultimo_mes_consultado": 7
+    }
+  ],
+  "elegido_validacion_incluye_experimentales": "Ensamble experimental",
+  "elegido_validacion_sin_historial": "Referencia",
+  "umbrales": {
+    "Referencia": 0.31753011746236426,
+    "CodigoExterno": 0.29333263593227915,
+    "Historial experimental": 0.19824461016818637,
+    "Red experimental": 0.21509026898946265,
+    "Ensamble experimental": 0.2317559234594238
+  },
+  "limitaciones": [
+    "Sin ID original de línea/oferta/proveedor",
+    "Deduplicación heredada sin verificar identidad de oferta",
+    "Precios rivales disponibles solo después de recibir ofertas",
+    "Historial sin fecha efectiva de disponibilidad del resultado",
+    "Test 2024 explorado previamente; no es confirmación independiente"
+  ]
+}
